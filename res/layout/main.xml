@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="@color/main_background"
+  	>
+  	<LinearLayout
+  		android:id="@+id/backlayout"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_alignParentBottom="true"
+  		android:background="@drawable/background_bottle"
+  		
+  		/>
+	<LinearLayout
+		android:id="@+id/frontlayout"
+		android:layout_alignParentTop="true"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:layout_below="@id/backlayout"
+	  	android:orientation="vertical"
+	  	android:paddingLeft="30dip"
+	  	android:paddingRight="30dip"
+  	>
+	<ImageView
+		android:id="@+id/img_main_title"
+		android:layout_height="65dip"
+		android:layout_width="fill_parent"
+		android:paddingTop="10dip"
+		android:gravity="center"
+		android:src="@drawable/title" />
+		
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip"
+		android:paddingRight="20dip"
+		android:paddingLeft="20dip"
+		android:paddingBottom="20dip"
+		android:stretchColumns="*">
+		<TableRow>
+			<Button
+				android:id="@+id/main_btn_new"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/main_new_button"
+				android:textColor="@color/text_white"
+				android:textSize="20dip"
+				android:background="@drawable/button_newgame"
+				>
+			</Button>
+			<Button
+				android:id="@+id/main_btn_see"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/main_see_button"
+				android:textColor="@color/text_white"
+				android:textSize="20dip"
+				android:background="@drawable/button_seerules"
+				>
+			</Button>
+		</TableRow>
+		<TableRow>
+			<Button
+				android:id="@+id/main_btn_about"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/main_about_button"
+				android:textColor="@color/text_white"
+				android:textSize="20dip"
+				android:background="@drawable/button_about">
+			</Button>
+			<Button
+				android:id="@+id/main_btn_exit"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/main_exit_button"
+				android:textColor="@color/text_white"
+				android:textSize="20dip"
+				android:background="@drawable/button_exit">
+			</Button>
+		</TableRow>
+	</TableLayout>
+	<TextView
+		android:id="@+id/lbl_main_abuse"	
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="@string/main_abuse"
+		android:textStyle="italic"
+		android:gravity="center" />
+		
+		
+		
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Strings in the main activity -->
+	<string name="app_name">Dizit</string> 
+	<string name="main_title">Drinking Games</string>
+    <string name="main_new_button">Nouveau</string>
+    <string name="main_see_button">Règles</string>
+    <string name="main_about_button">A propos</string>
+    <string name="main_exit_button">Quitter</string>
+    <string name="main_abuse">L\'abus d\'alcool est dangereux pour la santé.
+     Sachez consommer et apprécier avec modération.\n
+</string>
+    
+    <!-- Strings in the about Game -->
+    <string name="alert_title">A propos</string>
+    <string name="alert_text">Pour connaitre les dernières mises à jour, suivez moi sur twitter : \nwww.twitter.com/AndExp.\n\nSi vous avez un bug, suggestion ou idées d\'améliorations, envoyez moi un mail :\ncontact@android-experiment.com\n\nSi vous voulez intégrer une nouvelle règle, jetez un oeil au forum de mon site :\nhttp://forum.android-experiment.com\n\n<b>Remerciements : </b>\nDesign : Rob1\nTesteurs Archos : Cajl and BenMars\n\n<b>Changelog :</b>\n0.3.4 : Installation sur la sdcard sur Android 2.2\n0.3.3 : Ajout d\'un bouton exit dans les règles et About.\n0.3.2 : crash du mexicain en anglais résolu\n0.3.1 : bugs mineurs\n0.3.0 : ajouté le design de Rob1\n0.2.0 : ajouté le français et 2 nouvelles règles.\n0.1.0 : Première version</string>
+	
+	
+	 <!-- Strings to Choose the new game  -->
+    <string name="newgame_title">Choisissez votre jeu</string>
+    <string name="newgame_dice">Le Dice</string>
+    <string name="newgame_threeMan">Le Three Man</string>
+    <string name="newgame_dixit">Le Dixit</string>
+    <string name="newgame_eatTheTurnbuckle">Eat The Turnbuckle</string>
+    <string name="newgame_mexicali">Le Mexicali</string>
+    <string name="newgame_mexican">Le Mexicain</string>
+    <string name="newgame_maya">Le Maya</string>
+    
+    <!-- Strings for the dice game activity -->
+    <string name="game_title">Règles :</string>
+    <string name="launch_button">Lancez !</string>
+    
+    
+    
+    
+         <!--  Rules Dice fr -->
+   	<string name="app_name_dice">Dizit : The Dice</string>
+   	<string name="rule_dice_title">Le Dice :</string>
+   	<string name="rule_dice_nothing">
+   	Vous n\'avez tiré aucune combinaison, donnez vos dés au joueur suivant.</string>
+    <string name="rule_dice_general">\
+1. Le premier joueur tire les deux dés.\n\n
+2. a) Si la somme des dés est de 6 (ex : 2-4, 5-1) ou qu\'un des dés est 6, vous buvez une \"bonne\" gorgée de biere.\n\n
+b) Chaque fois que vous tirez un double 2, 4 ou 5 vous buvez ce nombre (2,4 ou 5)
+de gorgées de biere (Vous pouvez modifier à seulement une gorgée sur les doubles)\n\n
+c) Si vous lancez un double 3, vous êtes pénalisés doublement :\n
+\t- avoir lancé un double 3 (3 gorgées)\n
+\t- la somme des dés est 6 (1 gorgée de plus)\n\n
+d) Si vous tirez un double 1 ou un double 6, vous avez invoqué le \"Tueur\". 
+Pour le renvoyer dans l\'(e)au dela, vous devez boire un shot de votre poison favori (Vodka, Rhum, Tequila, etc).\n\n
+3. Continuez à lancer les dés tant que vous n\'avez pas de combinaison où vous ne buvez pas : 1-2, 1-3, 1-4, 1-5, 2-3, 2-5, 3-4, 3-5, 4-5. 
+Si vous faites tomber les dés en dehors de la table, vous gagnez le droit de boire une gorgée de biere.\n\n
+4. Après avoir réalisé la combinaison précédente, le joueur suivant prend les dés et commence son tour.
+</string>
+	<string name="rule_dice_6sum">
+	Les dés font 6. Vous buvez une \"bonne\" gorgée de biere.</string>
+    <string name="rule_dice_6dice">
+    Un des dés est un 6. Vous buvez une \"bonne\" gorgée de biere.</string>
+    <string name="rule_dice_double">
+    Vous avez tiré un double 2, 4 ou 5 vous buvez ce nombre (2,4 ou 5)
+de gorgées de biere (Vous pouvez modifier à seulement une gorgée sur les doubles).</string>
+	<string name="rule_dice_killer">vous avez invoqué le \"Tueur\". 
+Pour le renvoyer dans l\'(e)au dela, vous devez boire un shot de votre poison favori
+ (Vodka, Rhum, Tequila, etc).\n\n</string>
+	<string name="rule_dice_penalty">
+	Vous avez lancé un double 3, vous êtes pénalisés doublement :\n
+\t- avoir lancé un double 3 (3 gorgées)\n
+\t- la somme des dés est 6 (1 gorgée de plus)\n
+(ou seulement deux si vous jouez avec les règles modifiées)</string>
+    
+    
+    
+    
+    
+    
+    <!-- Rules Three Man-->
+    <string name="app_name_threeman">Dizit : The Three Man</string>
+    <string name="rule_three_man_title">Three Man :</string>
+    <string name="rule_three_man_general">
+1. Tout le monde commence en lançant un dé jusqu\'à ce qu\'une personne tire un trois.
+ Cette personne devient le \"Three man\" ou \"Homme trois\". Le jeu continue ensuite autour du cercle avec les personnes ayant tiré les dés.\n\n
+ 
+ 2. Le joueur à gauche du Three man commence et le jeu continue dans ce sens.
+Le joueur tire les deux dés et agis en fonction des combinaisons suivantes :\n\n
+
+1:1 Doubles - voir plus bas\n
+1:2 Le Three man boit (le total est égal à 3)\n
+1:3 Le Three man boit (3 sur un dés)\n
+1:4 Pouce sur la table ou le sol (surface jouée)\n
+1:5 Index sur le côté du nez.\n
+1:6 Le joueur à gauche de la personne qui joue boit (7 gauche/11 droite)\n
+2:2 Doubles - voir plus bas\n
+2:3 Le Three man boit (3 sur un dés)\n
+2:4 Passe ton tour\n
+2:5 Le joueur à gauche de la personne qui joue boit (7 gauche/11 droite)\n
+2:6 Passe ton tour\n
+3:3 Le Three man boit deux fois et Doubles - voir plus bas\n
+3:4 Le Three man boit et le joueur à gauche de la personne qui jette les dès boit\n
+3:5 Le Three man boit\n
+3:6 Tournée générale, le Three man en boit une de plus\n
+4:4 Doubles - voir plus bas\n
+4:5 Tournée générale\n
+4:6 Passe ton tour\n
+5:5 Doubles - voir plus bas\n
+5:6 Le joueur à droite de la personne qui joue boit (7 gauche/11 droite)\n
+6:6 Doubles - voir plus bas\n\n
+Cependant, si sur le tour du Three man, il/elle tire un 3 ou que la somme des dés est égale à trois, 
+il se libère du Three Man et peut désigner n\'importe quelle personne comme le nouveau Three Man.\n
+Si le Three Man tire un double 3 il désigne aussi son successeur comme ci-dessus et doit appliquer la règle des doubles.\n\n
+<u>Tournée générale :</u> tout le monde boit.\n\n
+
+<u>Doubles:</u> le lanceur à l\'option de donner les deux dés à un joueur ou un dés à deux joueurs. 
+Quoi qu\'il en soit, les dés sont lancés et la/les personne(s) qui l\'ont lancé boivent le nombre de gorgées indiquées par le(s) dés.
+Si les dés lancés refont un double, la personne qui a donné les dés doit boire la somme mais rejoue.\n\n
+Pour condenser :\n
+Total = 7 - Joueur à droite du lanceur de dés boit.\n
+Total = 11 - Joueur à gauche du lanceur de dés boit.\n
+Total = 9 - Tournée générale\n
+Un dés est un 3 ou alors la somme des dés = 3 - Le Three man boit\n
+1 et 4 - Pouce sur la surface jouée(table ou sol)\n
+1 et 5 - Index sur le côté du nez\n
+Doubles - Distribution des dés</string> 
+    <string name="rule_three_man_7">Le joueur à droite du lanceur de dés boit</string>
+    <string name="rule_three_man_9"><u>Tournée générale :</u> tout le monde boit</string>
+    <string name="rule_three_man_11">Le joueur à gauche du lanceur de dés boit</string>
+    <string name="rule_three_man_51">Index sur le côté du nez.</string>
+    <string name="rule_three_man_41">Pouce sur la surface jouée(table ou sol)</string>
+    <string name="rule_three_man_doubles">\
+    <u>Doubles:</u> le lanceur à l\'option de donner les deux dés à un joueur ou un dés à deux joueurs. 
+Quoi qu\'il en soit, les dés sont lancés et la/les personne(s) qui l\'ont lancé boivent le nombre de gorgées indiquées par le(s) dés.
+Si les dés lancés refont un double, la personne qui a donné les dés doit boire la somme mais rejoue.
+    </string>
+    <string name="rule_three_man_pigeon_simple">
+    Le Three Man boit. Si le Three Man est le lanceur, il choisit le nouveau Three Man</string>
+    <string name="rule_three_man_pigeon_double">
+    Le Three Man boit. Si le Three Man est le lanceur, il choisit le nouveau Three Man</string>
+    <string name="rule_three_man_nothing">
+    Rien ne se passe, passe ton tour.</string>    
+    
+    
+    
+    
+    
+    
+           
+   
+    
+    
+    
+    <!-- Rules Dixit fr -->
+    <string name="app_name_dixit">Dizit : Le Dixit</string>
+    <string name="rule_dixit_title">Dixit :</string>
+    <string name="rule_dixit_general">\n
+1. Tout le monde s\'assois en cercle et determine qui commence la partie.\n\n
+2. Le premier joueur lance les deux dés et agis en fonction des combinaisons suivantes :
+\n1:1 Doubles - voir plus bas
+\n1:2 Tu deviens le nouveau pigeon - voir plus bas
+\n1:3 Le pigeon boit (3 sur un dés)
+\n1:4 Rien ne se passe
+\n1:5 Tournée générale, tout le monde boit.
+\n1:6 Dixit - voir plus bas
+\n2:2 Doubles - voir plus bas
+\n2:3 Le pigeon boit (3 sur un dés)
+\n2:4 Rien ne se passe
+\n2:5 Dixit - voir plus bas
+\n2:6 Rien ne se passe
+\n3:3 Le Pigeon boit deux foix plus règle des doubles - voir plus bas
+\n3:4 Le Pigeon boit + Dixit - voir plus bas
+\n3:5 Rien ne se passe
+\n3:6 Le joueur précédent boit (9)
+\n4:4 Doubles - voir plus bas
+\n4:5 Le joueur précédent boit (9)
+\n4:6 Le joueur qui a lancé les dés boit (10)
+\n5:5 Doubles - voir plus bas et le joueur qui a lancé les dés boit (10)
+\n5:6 Le joueur suivant boit (11)
+\n6:6 Doubles 6 - voir plus bas
+
+\n\n3. Après avoir lancé les dès une fois, donnez les dès au joueur suivant.
+\n\n<u>Doubles:</u> Le lanceur des dès doit boire le nombre de gorgées indiquées
+ sur un dès et distribuer le même nombre de gorgées aux joueurs qu\'il veut.
+(ex. Le lanceur fait double 4. Il boit 4 gorgées et en distribue 1 à Mr X et 3 à Mme Y).\n
+Quand un <b>double 6</b> est tiré, il faut faire pareil que précédement mais,
+ en plus, inventer une règle pour pimenter le jeux. 
+(ix. Parler sans prononcer le \"b\", ne pas utiliser le verbe \"boire\")\n\n
+
+<u>Dixit:</u> Quand la somme des dés est égal à 7, tout le monde doit dire Dixit
+et poser leur pouce sur le front. La dernière personne à le faire boit une gorgée.
+
+\n\nPour simplifier :\n
+Total = 7 - Dixit\n
+Total = 9 - Joueur précédent boit\n
+Total = 10 - Le lanceur boit\n
+Total = 11 - Le joueur suivant boit\n
+Un des dés est 3 - Le pigeon boit\n
+1 et 2 - Le joueur devient le nouveau pigeon\n
+1 et 5 - Tournée générale, everyone drinks\n
+Double - Prend et distribue la même somme de gorgées\n
+Double 6 - Invente une nouvelle règle.
+
+    </string>
+    <string name="rule_dixit_51">Tournée Générale : tout le monde boit</string>
+    <string name="rule_dixit_7"><u>Dixit:</u> Quand la somme des dés est égal à 7, tout le monde doit dire Dixit
+et poser leur pouce sur le front. La dernière personne à le faire boit une gorgée.</string>
+    <string name="rule_dixit_9">Le joueur précédent boit.</string>
+    <string name="rule_dixit_10">Le lanceur de dés boit</string>
+    <string name="rule_dixit_11">Le joueur suivant boit</string>
+    <string name="rule_dixit_double">\
+	<u>Doubles:</u> Le lanceur des dès doit boire le nombre de gorgées indiquées
+ sur un dès et distribuer le même nombre de gorgées aux joueurs qu\'il veut.
+(ex. Le lanceur fait double 4. Il boit 4 gorgées et en distribue 1 à Mr X et 3 à Mme Y)    
+</string>
+    <string name="rule_dixit_double6">\
+    <u>Doubles:</u> Le lanceur des dès doit boire le nombre de gorgées indiquées
+ sur un dès et distribuer le même nombre de gorgées aux joueurs qu\'il veut.
+(ex. Le lanceur fait double 4. Il boit 4 gorgées et en distribue 1 à Mr X et 3 à Mme Y)\n
+Quand un <b>double 6</b> est tiré, il faut faire pareil que précédement mais,
+ en plus, inventer une règle pour pimenter le jeux. 
+(ix. Parler sans prononcer le \"b\", ne pas utiliser le verbe \"boire\")\n\n
+    </string>
+    <string name="rule_dixit_pigeon_simple">Le pigeon doit boire une gorgée.</string>
+    <string name="rule_dixit_pigeon_double">Le pigeon doit boire deux gorgées.</string>
+    <string name="rule_dixit_pigeon_new">La personne ayant jeté les dés devient le nouveau pigeon</string>
+    <string name="rule_dixit_nothing">Rien ne se passe.</string>    
+    
+    
+    
+    
+    
+
+
+
+
+     <!--  Rules Mexicali fr -->
+    <string name="app_name_mexicali">Dizit : The Mexicali</string>
+    <string name="rule_mexicali_title">Le Mexicali</string>
+    <string name="rule_mexicali_nothing"></string>
+    <string name="rule_mexicali_general">
+1. Chaque personne jouant doit avoir sa propre boisson.\n\n
+2. Le but est de lancer les dés et de les regarder discrètement (ne laissez personne d\'autre les voir)
+et d\'annoncer ce que vous avez tiré.\n\n
+3. a) Si votre lancé n\'est pas égal ,ou bat le lancé du joueur précédent, vous devez boire.\n
+b) Vous pouvez bluffer sur votre lancé pour éviter de boire.
+Cependant, la personne jouant après vous à le droit de dire que vous bluffez.\n
+Si elle à raison vous devez boire.\n
+Si elle à tort (vous aviez vraiment réalisé le lancé que vous aviez annoncé), alors elle doit boire.\n\n
+
+Le jeu passe ensuite au joueur suivant.
+
+\n\n4. Votre lancé est toujours annoncé avec le dé le plus élevé en premier (ex : un 3 et un 4 doit être annoncé \"43\").
+Si vous avez lancé un double, la valeur est d\'un dé multiplié par cent (ex : double 2 doit être annoncé \"200\").
+Si vous oubliez de faire ça, vous devez boire une gorgée.\n\n
+
+<u>Règles spéciales</u>\n
+Il y a aussi quelques lancés spéciaux qui affectent le jeux :\n\n
+
+"21" (un 2 et un 1) est appellé \"Mexicali\" et bats tous les autres lancés (incluant le double 6, ou 600).\n
+Si vous avez un \"21\", vous devez dire \"Mexicali\", et pas \"21\" sinon vous devez boire.\n
+Si vous avez un \"Mexicali\", tous les autres joueurs boivent 3 gorgées et le jeux recommence avec le joueur après vous.\n
+Si vous dites que vous avez un \"Mexicali\" alors que c\'est faux, vous devez boire 3 gorgées et le jeu recommence
+avec le joueur après vous.\n
+Si vous êtes pris à bluffer un \"Mexicali\", vous devez boire tout votre verre.
+
+\"31\" est un changement de sens : le jeu repart dans l\'autre sens autour de la table.\n\n
+
+\"32\" est une tournée générale : tout le monde doit boire une gorgée.\n\n
+
+Le \"31\" et le \"32\" annulent tous les deux le lancé précédent.
+ Vous n\'avez donc pas besoin de vous soucier de batter le score du joueur précédent. 
+ 
+\n\nPour simplifier :
+
+\n\n2-1 \"21\" Mexicali - Bat tout.
+\n3-1 \"31\" Reverse - Changement de sens.
+\n3-2 \"32\" Social - Tout le monde boit.
+\n4-1 \"41\"
+\n4-2 \"42\"
+\n4-3 \"43\"
+\n4-5 \"45\"
+\n5-1 \"51\"
+\n5-2 \"52\"
+\n5-3 \"53\"
+\n5-4 \"54\"
+\n6-1 \"61\"
+\n6-2 \"62\"
+\n6-3 \"63\"
+\n6-4 \"64\"
+\n6-5 \"65\"
+\n1-1 \"100\"
+\n2-2 \"200\"
+\n3-3 \"300\"
+\n4-4 \"400\"
+\n5-5 \"500\"
+\n6-6 \"600\"
+   </string>
+   
+   <string name="rule_mexicali_21">\"22\" (un 2 et un 1) est appellé \"Mexicali\" et bats tous les autres lancés (incluant le double 6, ou 600).\n
+Si vous avez un \"21\", vous devez dire \"Mexicali\", et pas \"21\" sinon vous devez boire.\n
+Si vous avez un \"Mexicali\", tous les autres joueurs boivent 3 gorgées et le jeux recommence avec le joueur après vous.\n
+Si vous dites que vous avez un \"Mexicali\" alors que c\'est faux, vous devez boire 3 gorgées et le jeu recommence
+avec le joueur après vous.\n
+Si vous êtes pris à bluffer un \"Mexicali\", vous devez boire tout votre verre.</string>
+   <string name="rule_mexicali_31">\"31\" est un changement de sens : le jeu repart dans l\'autre sens autour de la table.\n\n
+</string>
+   <string name="rule_mexicali_33">\"32\" est une tournée générale : tout le monde doit boire une gorgée.</string>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    <!-- The Mexican Rule fr -->
+    <string name="app_name_mexican">Dizit : Le Mexicain</string>
+    <string name="rule_mexican_title">Le Mexicain</string>
+    <string name="rule_mexican_nothing"></string>
+    <string name="rule_mexican_general">
+Ce jeu est un peu difficile à saisir au départ mais une fois compris il devient assez interessant.\n\n
+
+1. Quelqu\'un commence en premier en lançant les dés. Le score est compté comme suit : \n\n
+<u>2 et 1</u> : le \"Mexicain\" est le plus fort lancer possible.\n\n
+<u>3 et 1</u> : \"Sac à merde\", le lanceur doit immédiatement boire une gorgée.\n
+Ce lancer est tellement faible qu\'il ne compte pas et le lanceur rejoue ce lancer.\n\n
+<u>Double</u> : le score est cent fois la valeur d\'un dé (ex : double 2 doit être annoncé \"202\").\n
+Lorsqu\'une des combinaison précédente est lancée pendant le round, 
+le perdant devra boire le double de la quantité standard établie.\n\n
+
+N\'importe quel autre lancer :\nLe plus grand dé multiplié par 10 auquel on additionne l\'autre dé (ex : 5 et 4 = 54, 1 et 6 = 61).\n\n
+
+2. La premier lanceur a le choix entre 1, 2 ou 3 lancers pour obtenir le meilleur score qu\'il peut.
+Le score du premier joueur est le score de son dernier lancer 
+(ex : si il fait 61 puis 63 et qu\'il décide de faire un troisième lancé, 
+il devra prendre le score du troisième lancer même si il est plus faible\n\n
+
+Si le premier joueur décide de faire qu\'un lancer, tous les autres joueurs seront obligés de jouer qu\'avec un lancer.\n\n
+
+3. <u>Garder un dé</u> : Si un joueur à plus qu\'un lancer disponible, 
+il peut décider de garder un dé avec 1 ou 2 (ou autre) pour les prochains lancers. 
+Cette technique permet d\'accroitre la chance d\'obtenir un Mexicain, tout en accroissant aussi la chance de tomber sur un \"sac à merde\" ou un score plus bas.
+
+4. Le perdant est la personne qui à fait le plus petit score. Dans le cas d\'un égalité, les joueurs à égalité
+doivent relancer un dé. Le plus petit score perd.\n\n
+
+Jouez autant de rounds que vous le souhaitez.\n\n
+
+Rappel :
+
+\n2-1 \"21\" \"Mexicain\" 
+\n3-1 \"31\" \"Sac à merde\" 
+\n3-2 \"32\" 
+\n4-1 \"41\" 
+\n4-2 \"42\"
+\n4-3 \"44\"
+\n4-5 \"40\"
+\n5-1 \"51\"
+\n5-2 \"52\"
+\n5-3 \"53\"
+\n5-4 \"55\"
+\n6-1 \"61\"
+\n6-2 \"62\"
+\n6-3 \"63\"
+\n6-4 \"64\"
+\n6-5 \"65\"
+\n1-1 \"100\"
+\n2-2 \"200\"
+\n3-3 \"300\"
+\n4-4 \"400\"
+\n5-5 \"500\"
+\n6-6 \"600\"</string>
+
+
+	<string name="rule_mexican_21"><u>2 et 1</u> : le \"Mexicain\" est le plus fort lancer possible.\n
+Lorsque cette combinaison est lancée pendant le round, l\'éventuel perdant devra boire le double de la quantité standard
+définie pour le jeu. Chacune des combinaisons (mexicain, sac à merde,
+ double) double la quantité requise que devra boire le perdant.</string>
+	<string name="rule_mexican_31">3 et 1 = \"sac à merde\"\n
+Le lanceur doit immédiatement boire une gorgée. Ce lancer ne compte pas comme un lancer.\n
+Lorsque cette combinaison est lancée pendant le round, l\'éventuel perdant devra boire le double de la quantité standard
+définie pour le jeu. Chacune des combinaisons (mexicain, sac à merde,
+ double) double la quantité requise que devra boire le perdant.</string>
+	<string name="rule_mexican_double">Double\n
+Lorsque cette combinaison est lancée pendant le round, l\'éventuel perdant devra boire le double de la quantité standard
+définie pour le jeu. Chacune des combinaisons (mexicain, sac à merde,
+ double) double la quantité requise que devra boire le perdant.</string>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+</resources>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Strings in the main activity -->
+    <string name="app_name">Dizit</string> 
+    <string name="main_title">Drinking Games</string>
+    <string name="main_new_button">New game</string>
+    <string name="main_see_button">See rules</string>
+    <string name="main_about_button">About game</string>
+    <string name="main_exit_button">Exit</string>
+    <string name="main_abuse">Drink aware ! Drink in moderation !\n
+    Do not drive your vehicle under any circumstance after consuming alcohol.</string>
+    
+    <!-- Strings in the about Game -->
+    <string name="alert_title">About the game</string>
+    <string name="alert_text">For the lasts updates or beta test, follow me on Twitter :\nwww.twitter.com/AndExp\n\nIf you have any bugs,any suggestions or improvement ideas, please contact me at :\ncontact@android-experiment.com\n\nIf you have any new rules to implement, take a look to my forum\'s website : \nhttp://forum.android-experiment.com\n\n<b>Special thanks to :</b>\nDesign : Rob1\nTesters Archos : Cajl and BenMars\n\n<b>Changelog :</b>\n0.3.4 : Add the possibility to install on SdCard in Android 2.2\n0.3.3 : Add links on the About, add exit buttons in rules and about\n0.3.2 : Crash on mexican fixed\n0.3.1 : Minor bugs\n0.3.0 : add design from Rob1\n0.2.0 : add fr language, 2 more rules.\n0.1.0 : First Version</string>
+    
+    <!-- Strings to Choose the new game  -->
+    <string name="newgame_title">Choose your game</string>
+    <string name="newgame_dice">The Dice</string>
+    <string name="newgame_threeMan">The Three Man</string>
+    <string name="newgame_dixit">The Dixit</string>
+    <string name="newgame_eatTheTurnbuckle">Eat The Turnbuckle</string>
+    <string name="newgame_mexicali">Mexicali</string>
+    <string name="newgame_mexican">Mexican</string>
+    <string name="newgame_maya">Maya</string>
+    
+    <!-- Strings for the dice game activity -->
+    <string name="game_title">Rules :</string>
+    <string name="launch_button">Launch !</string>
+    
+    
+    
+    
+    
+    
+    <!-- Rules Three Man-->
+    <string name="app_name_threeman">Dizit : The Three Man</string>
+    <string name="rule_three_man_title">The Three Man :</string>
+    <string name="rule_three_man_general">
+1.Everyone starts off by rolling one die till someone rolls a three. 
+This person then becomes the three man. The game then proceeds around the circle with people taking turns rolling the two dice.\n
+2. The player to the left of the Three Man goes first, and the game continues in a clockwise direction.
+The player then rolls both dice and acts according to the following combinations:\n\n
+1:1 Doubles - see below\n
+1:2 The Three man drinks (sum to 3)\n
+1:3 The Three man drinks (three on dice)\n
+1:4 Thumb to table or floor (playing surface)\n
+1:5 Index finger to side of nose.\n
+1:6 Player to the left of the roller drinks (7 left/11 right)\n
+2:2 Doubles - see below\n
+2:3 The Three man drinks (three on die)\n
+2:4 Pass turn\n
+2:5 Player to the left of the roller drinks (7 left/11 right)\n
+2:6 Pass turn\n
+3:3 Doubles - see below; three drinks twice\n
+3:4 The Three man drinks; player to the left of the roller drinks\n
+3:5 The Three man drinks\n
+3:6 The Three man drinks; Social\n
+4:4 Doubles - see below\n
+4:5 Social\n
+4:6 Pass turn\n
+5:5 Doubles - see below\n
+5:6 Player to the right of the roller drinks (7 left/11 right)\n
+6:6 Doubles - see below\n\n
+However, if on Three man\'s turn, s/he rolls a three or combination thereof, 
+s/he is no longer the Three Man and then can designate any other player as the new Three Man. 
+This also includes if the Three Man rolls during a doubles give -> see below.\n
+Social: Everybody drinks.
+
+\nDoubles: The roller has the option of giving both dice to one player or one dice to two players. 
+Whatever the case, the dice are rolled and the number on the dice is what that person(s) have to drink. 
+(ie: the roller gives the dice to Y and Z. Y rolls a 3 and Z rolls a five, Y drinks 3, Z drinks 5. 
+ Or Y gets both dice and rolls a 3:5, Y then drinks 8.) 
+ However, if the given dice rolls to doubles, the original roller has to drink that amount.But the original roller also keeps the turn.\n\n
+
+To condense everything:\n
+Total of 7 - Player to the right of the roller drinks\n
+Total of 11 - Player to the left of the roller drinks\n
+Total of 9 - Social\n
+Any 3 or sum to 3 - The Three man drinks\n
+1 and 4 - Thumb on floor\n
+1 and 5 - Finger on nose\n
+Doubles - Give them away</string> 
+    <string name="rule_three_man_7">Player to the right of the roller drinks</string>
+    <string name="rule_three_man_9">Social: Everyone drinks</string>
+    <string name="rule_three_man_11">Player to the left of the roller drinks</string>
+    <string name="rule_three_man_51">Index finger to side of nose.</string>
+    <string name="rule_three_man_41">Thumb to table or floor (playing surface)</string>
+    <string name="rule_three_man_doubles">\
+    Doubles: The roller has the option of giving both dice to one player or one dice to two players.\n
+     Whatever the case, the dice are rolled and the number
+      on the dice is what that person(s) have to drink.\n\n
+     (ie. roller gives the dice to Y and Z. Y rolls a 3 and Z rolls a five,
+     Y drinks 3, Z drinks 5. Or Y gets both dice and rolls a 3:5, Y then drinks 8.)\n
+     However, if the given dice rolls to doubles, the original roller has to drink that amount.
+     But the original roller also keeps the turn. 
+    </string>
+    <string name="rule_three_man_pigeon_simple">
+    The Three Man drinks. If the Three Man is the roller, he chooses the new Three Man</string>
+    <string name="rule_three_man_pigeon_double">
+    The Three Man drinks twice. if the Three Man is the roller, he chooses the new Three Man</string>
+    <string name="rule_three_man_nothing">
+    Nothing happens</string>    
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <!-- Rules  Dixit -->
+    
+	<string name="app_name_dixit">Dizit : The Dixit</string>
+    <string name="rule_dixit_title">Dixit :</string>
+    <string name="rule_dixit_general">\n
+1. Everyone sits in a circle and determine who is the first player.\n
+2. The first player rolls both dice and acts according to the following combinations:\n\n
+1:1 Doubles - see below\n
+1:2 You become the new pigeon - see below (sum to 3)\n
+1:3 The pigeon drinks (three on dice)\n
+1:4 Nothing happens\n
+1:5 Social, everyone drinks.\n
+1:6 Dixit - see below\n
+2:2 Doubles - see below\n
+2:3 The pigeon drinks (three on dice)\n
+2:4 Nothing happens\n
+2:5 Dixit - see below\n
+2:6 Nothing happens\n
+3:3 Doubles - see below, Pigeon drinks twice\n
+3:4 Pigeon drinks; Dixit - see below\n
+3:5 Nothing happens\n
+3:6 Player who rolls the dice before drinks (9)\n
+4:4 Doubles - see below\n
+4:5 Player who rolls the dices before drinks (9)\n
+4:6 Player who rolls the dices drinks (10)\n
+5:5 Doubles - see below, Player who rolls the dices drinks\n
+5:6 Player who rolls the dices after drinks (11)\n
+6:6 Doubles 6 - see below\n\n
+
+3. After rolling his dices (1 time) he have to give them to the next player.\n\n
+
+Doubles: The roller have to drink the number on a dice and give the same to a person or distribute it between more persons \n
+(ie. roller does double 3. He drinks 3 and gives 3 to a person or give 1 to a person and 2 to another.)\n
+When a <b>double 6</b> is rolled, you have to do like above but you have to invent a new rule too. 
+(ie. Speaking without pronouncing the "b", Don\'t use the verb "to drink")\n\n
+
+Dixit: When the sum of the dices equals to 7, Everyone have to say "Dixit"
+ and put their thumb on their forehead. The last person to do so have to drink once.
+
+\n\nTo condense everything:\n
+Total of 7 - Dixit\n
+Total of 9 - Player before drinks\n
+Total of 10 - Player drinks\n
+Total of 11 - Player after drinks\n
+Any 3 - Pigeon drinks\n
+1 and 2 - Become new Pigeon\n
+1 and 5 - Social, everyone drinks\n
+Double - take and distribute the same amount\n
+Double 6 - invent a new rule.
+
+    </string>
+    <string name="rule_dixit_51">Social : everyone drinks once</string>
+    <string name="rule_dixit_7">Dixit: When the sum of the dices equals to 7, Everyone have to say "Dixit"
+ and put their thumb on their nose. The last person to do so have to drink once.</string>
+    <string name="rule_dixit_9">Player who rolls the dices before drinks</string>
+    <string name="rule_dixit_10">Player who rolls the dices drinks</string>
+    <string name="rule_dixit_11">Player who rolls the dices after drinks</string>
+    <string name="rule_dixit_double">\
+    Doubles : The roller have to drink the number of a dice and give the same number to a person (or more).</string>
+    <string name="rule_dixit_double6">\
+    Doubles 6 : The roller have to drink the number of a dice and give the same number to another person. 
+    The player have to invent a new rule.
+    </string>
+    <string name="rule_dixit_pigeon_simple">The Pigeon have to drink once</string>
+    <string name="rule_dixit_pigeon_double">The Pigeon have to drink twice</string>
+    <string name="rule_dixit_pigeon_new">The player is the new Pigeon</string>
+        <string name="rule_dixit_nothing">Nothing happens</string>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--  Rules Dice -->
+   	<string name="app_name_dice">Dizit : The Dice</string>
+   	<string name="rule_dice_title">The Dice :</string>
+   	<string name="rule_dice_nothing">
+    You haven\'t roll any combination, give the dices to the next player.</string>
+    <string name="rule_dice_general">\
+1. The first player rolls two dices.\n\n
+2. a) Anything that adds up to six (i.e. 2-4,5-1) 
+or has a six in it (i.e. 6-1, 6-2, 6-2, 6-3, 6-4, 6-5), 
+you drink a "good" gulp of beer.\n\n
+b) Any time you roll double 2s, 4s, or 5s you drink that many 
+(2, 4, or 5) "good" gulps of beer (You can modify this to just one "gulp" on doubles).\n\n
+c) If you roll double 3s you are penalized twice,
+ for getting doubles and adding up to six. Thus four "good" gulps 
+ (or 2 if you play the modified rules).\n\n
+d) The killer is double 1s or double 6s.
+ For this you do a SHOT of your favorite poison (i.e. JD, Southern Comfort, tequila, etc).\n\n
+3. Continue rolling until you get something that you don\'t drink on.
+ (i.e. 1-2, 1-3, 1-4, 1-5, 2-3, 2-5, 3-4, 3-5, 4-5). If you roll the dice off the table,
+  you are also rewarded with a gulp of beer.\n
+4. After achieving the above, the next player now takes his turn.
+    </string>
+    <string name="rule_dice_6sum">
+    The dices adds up to 6. You drink a "good" gulp of beer.</string>
+    <string name="rule_dice_6dice">
+    One of the dices is a 6. You drink a "good" gulp of beer.</string>
+    <string name="rule_dice_double">
+    You roll double 2s, 4s, or 5s you drink that many 
+(2, 4, or 5) "good" gulps of beer (You can modify this to just one "gulp" on doubles).</string>
+	<string name="rule_dice_killer">
+	You roll "the killer" combination (double 1s or double 6s).\n
+	For this you do a SHOT of your favorite poison (i.e. JD, Southern Comfort, tequila, etc). </string>
+	<string name="rule_dice_penalty">
+	You roll double 3s you are penalized twice,
+ for getting doubles and adding up to six.
+  Thus four "good" gulps (or 2 if you play the modified rules).</string>
+
+    
+    
+    
+    <!--  Rules Mexicali -->
+    <string name="app_name_mexicali">Dizit : The Mexicali</string>
+    <string name="rule_mexicali_title">The Mexicali</string>
+    <string name="rule_mexicali_nothing"></string>
+    <string name="rule_mexicali_general">
+1. Everyone at the table has their own drink.\n\n
+2. The object is to launch the dices and take a peek at the dices (don\'t let anyone else see them) and then announce what you have.
+3.a) If your roll does not match or beat the previous roll then you must drink.
+
+b) You may bluff what you rolled in order to avoid drinking. However, the last person to roll before you has the ability to call your bluff.
+
+If done successfully, you must drink. If they call your bluff and lose (ie. you really did beat the last score) then that person must drink.
+
+Play then moves on to the next person
+
+4. Your roll is always called with the highest number first (ex. a 3 and a 4 would be "43") 
+or if you throw doubles the value is one die times a hundred (ex. double 2 would cound as "200").
+If you forget to do this, you must take a drink.\n\n
+
+Special Rules\n
+There are also some other special rolls that affect the game:\n\n
+
+"21" (a 2 and a 1) is called a "Mexicali" and beats all other rolls (including double 6, or "600").\n
+If you get "21", you must call "Mexicali", not "21" or else you have to take a drink. \n
+If you get a Mexicali, all other players drink 3 drinks and play starts over with the player after you. \n
+If you call a Mexicali and you do not have it, you take 3 drinks and the play starts over with the player after you.\n\n
+
+"31" is a "reverse" and play goes back the other way around the table.\n\n
+
+"32" is a "social" and everybody drinks.\n\n
+
+"Reverse" and "social" both cancel out the previous roll so you don\'t have to worry about beating the previous guy\'s score. 
+If you are caught bluffing a Mexicali you have to down the whole drink.\n\n
+
+To sum:\n\n
+
+2-1 "21" Mexicali - Beats all.\n
+3-1 "31" Reverse - Rotates play.\n
+3-2 "32" Social - Everybody drinks.\n
+4-1 "41"\n
+4-2 "42"\n
+4-3 "43"\n
+4-5 "45"\n
+5-1 "51"\n
+5-2 "52"\n
+5-3 "53"\n
+5-4 "54"\n
+6-1 "61"\n
+6-2 "62"\n
+6-3 "63"\n
+6-4 "64"\n
+6-5 "65"\n
+1-1 "100"\n
+2-2 "200"\n
+3-3 "300"\n
+4-4 "400"\n
+5-5 "500"\n
+6-6 "600"\n
+   </string>
+   <string name="rule_mexicali_21">If you get "21", you must call "Mexicali", not "21" or else you have to take a drink. \n
+\nIf you get a Mexicali, all other players drink 3 drinks and play starts over with the player after you. \n
+\nIf you call a Mexicali and you do not have it, you take 3 drinks and the play starts over with the player after you.\n </string>
+   <string name="rule_mexicali_31">"31" is a "reverse" and play goes back the other way around the table.</string>
+   <string name="rule_mexicali_32">"32" is a "social" and everybody drinks.</string>
+    
+    
+    
+    <!-- The Mexican Rule -->
+    <string name="app_name_mexican">Dizit : The Mexican</string>
+    <string name="rule_mexican_title">The Mexican</string>
+    <string name="rule_mexican_nothing">Any other throw
+The highest number multiplied by 10 + the smallest number i.e., 5 and 4 scores 54, 6 and 1 scores 61 etc.
+</string>
+    <string name="rule_mexican_general">
+This game takes a bit to catch onto, but once understood, quite a competitive game.\n\n
+
+1. Someone arbitrarily goes first by rolling the dice. The score for the dice is as follows:\n
+
+2 and 1 = Mexican, the highest possible roll.\n
+If you throw one of these, the eventual loser has to drink double the standard drinking quantity being used for the game. 
+Each subsequent mexican in that round will double the required drink for loser. More easily understood later.\n\n
+
+3 and 1 = scumbag\n
+The thrower immediately has to consume one drink. This throw does not count as one of the thrower\'s goes.\n\n
+
+Any double\n
+100 times the double i.e., double 1 scores 100, double 2 scores 200 etc.\n\n
+
+Any other throw\n
+The highest number multiplied by 10 + the smallest number i.e., 5 and 4 scores 54, 6 and 1 scores 61 etc.\n\n
+
+2. The starter has the choice of one, two of three rolls to obtain the best score they can. 
+The starter\'s score is the score of their last throw i.e., 
+if you throw a 61 then 63 with your first two throws and elect to take a third throw, 
+you must count the third throw even if it\'s lower. 
+Every other player in the game has the choice of throwing up to as many times as the starter i.e., 
+if the starter takes one throw, all other players have only one throw.\n\n
+
+3. Holding a dice - if a player has more than one throw available, 
+they may hold a 1 or a 2 (if thrown) for subsequent throws i.e., 
+if you have 2 or 3 throws and you throw a 4:1 on your first go, you may, 
+if you wish, only pick up the 4 and throw it as your next go. 
+This tactic will increase your chance of a mexican, while also increasing your chance of a low score or scumbag. 
+If you throw a scumbag you may not hold the 1.\n\n
+
+4. The loser is the person who throws the lowest score. 
+In the event of a tie, all players with the lowest score must roll one dice and the lowest number loses.\n\n
+
+Play as many rounds as desired.\n\n 
+
+To sum:\n
+\n
+2-1 "21" Mexican\n
+3-1 "31" Scumbag\n
+3-2 "32" \n
+4-1 "41"\n
+4-2 "42"\n
+4-3 "43"\n
+4-5 "45"\n
+5-1 "51"\n
+5-2 "52"\n
+5-3 "53"\n
+5-4 "54"\n
+6-1 "61"\n
+6-2 "62"\n
+6-3 "63"\n
+6-4 "64"\n
+6-5 "65"\n
+1-1 "100"\n
+2-2 "200"\n
+3-3 "300"\n
+4-4 "400"\n
+5-5 "500"\n
+6-6 "600"</string>
+
+
+	<string name="rule_mexican_21"> 2 and 1 =Mexican, the highest possible roll.\n
+If you throw one of these, the eventual loser has to drink double the standard drinking quantity being used for the game. 
+Each subsequent mexican in that round will double the required drink for loser. More easily understood later.</string>
+	<string name="rule_mexican_31">3 and 1 = scumbag\n
+The thrower immediately has to consume one drink. This throw does not count as one of the thrower\'s goes.</string>
+  
+<string name="rule_mexican_double">Double\n
+When this combination is launched during the round, the looser will have to drink the double of the standard quantity defined for the game. Each combination (mexican, scumbag, double) double the quantity required that will have to drink the looser.</string>
+</resources>

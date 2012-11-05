@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="games">
+	<item>@string/newgame_dice</item>
+	<item>@string/newgame_threeMan</item>
+	<item>@string/newgame_dixit</item>
+	<item>@string/newgame_mexicali</item>
+	<item>@string/newgame_mexican</item> 
+	<!-- kinito :p-->
+</array>
+</resources>
